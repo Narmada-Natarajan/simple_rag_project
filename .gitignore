@@ -1,0 +1,12 @@
+venv/
+.venv/
+__pycache__/
+.env
+*.pyc
+
+# Generated vector database
+faiss_index.bin
+chunks.pkl
+
+# Local model/cache files
+.cache/
